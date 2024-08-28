@@ -1,0 +1,55 @@
+header{
+    height: 15vh;
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+}
+
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    width: 25%;
+    margin-bottom: 0;
+}
+
+header ul li a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #fff;
+    border-bottom: 2px solid transparent;
+    transition: border-color .5s;
+    
+}
+
+
+header ul li a:hover{
+    border-bottom: 2px solid #FFBF00;
+}
+
+
+/* Primeira Section */
+
+.first-section{
+    height: 85vh;
+    background-color: #EDEDED;
+    display: flex;
+    flex-direction: row;
+}
+
+.first-section-title-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+
